@@ -56,7 +56,7 @@ gulp.task('watch', ['delete-dist'], function() {
   tests.watch();
 });
 
-gulp.task('watch-and-serve', ['watch'], function() {
+gulp.task('serve', ['watch'], function() {
   connect.server({
     root: './dist',
     port: 8080

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start --reporters mocha,junit --single-run --browsers PhantomJS",
-    "serve": "gulp watch-and-serve",
+    "serve": "gulp serve",
     "watch": "gulp watch",
     "build": "gulp build"
   },
@@ -44,11 +44,9 @@
     "gulp-eslint": "^1.0.0",
     "gulp-if": "^2.0.0",
     "gulp-inject": "^3.0.0",
-    "gulp-jshint": "^1.11.2",
     "gulp-notify": "^2.2.0",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-streamify": "1.0.0",
-    "gulp-uglify": "^1.2.0",
     "gulp-util": "^3.0.6",
     "jasmine-core": "^2.3.4",
     "karma": "^0.13.10",
