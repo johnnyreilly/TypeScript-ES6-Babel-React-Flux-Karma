@@ -12,7 +12,7 @@ module.exports = {
       'react/addons',
       'flux',
       'events',
-      'babel/polyfill'
+      'babel-polyfill'
     ]
   },
   output: {
@@ -24,12 +24,15 @@ module.exports = {
     loaders: [{
       test: /\.ts(x?)$/,
       exclude: /node_modules/,
-      loader: 'babel-loader!ts-loader'
+      loader: 'babel-loader?presets[]=es2015,presets[]=react!ts-loader'
     }, {
       test: /\.js$/,
       exclude: /node_modules/,
-      loader: 'babel'
-    }]
+      loader: 'babel',
+      query: {
+        presets: ['es2015', 'react']
+      }
+    }],
   },
   plugins: [
   ],

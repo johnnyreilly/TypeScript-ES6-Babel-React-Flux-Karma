@@ -1,4 +1,4 @@
-# ES6 + TypeScript + Babel + React + Karma: The Secret Recipe
+# TypeScript + ES6 + Babel + React + Karma: The Secret Recipe
 
 ## Getting started
 
