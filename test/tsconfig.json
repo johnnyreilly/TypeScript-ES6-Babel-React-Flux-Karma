@@ -18,11 +18,7 @@
         "components/Greeting.tests.tsx",
         "components/WhoToGreet.tests.tsx",
         "stores/GreetingStore.tests.ts",
-        "../typings/flux/flux.d.ts",
-        "../typings/jasmine/jasmine.d.ts",
-        "../typings/node/node.d.ts",
-        "../typings/react/react.d.ts",
-        "../typings/tsd.d.ts"
+        "../typings/index.d.ts"
     ],
     "exclude": []
 }

@@ -1,0 +1,9 @@
+{
+  "name": "TypeScript-ES6-Babel-React-Flux-Karma",
+  "globalDependencies": {
+    "flux": "registry:dt/flux#0.0.0+20160618175531",
+    "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/jasmine.d.ts#3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9",
+    "react": "github:DefinitelyTyped/DefinitelyTyped/react/react.d.ts#3191f6e0088eee07c4d8fd24e4d27a40a60d9eb9"
+  }
+}

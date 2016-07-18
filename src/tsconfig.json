@@ -14,10 +14,7 @@
         "sourceMap": true
     },
     "files": [
-        "../typings/flux/flux.d.ts",
-        "../typings/node/node.d.ts",
-        "../typings/react/react.d.ts",
-        "../typings/tsd.d.ts",
+        "../typings/index.d.ts",
         "actions/GreetingActions.ts",
         "components/App.tsx",
         "components/Greeting.tsx",
